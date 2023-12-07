@@ -1,0 +1,20 @@
+{
+    "en":{
+        "welcomeMessage" : " Your Welcome !" ,
+        "normalMessage" : "We hope you are enjoy to learn JavaScript ." ,
+        "greetingMessag" : "Have a Good Day"
+    },
+    "mr":{
+        "welcomeMessage" : "तुमचे स्वागत आहे  !",
+        "normalMessage" : "आम्हाला आशा आहे की तुम्हाला JavaScript शिकण्यात आनंद झाला असेल .",
+        "greetingMessag" : "आपका दिन शुभ हो"
+
+    },
+    "hi":{
+        "welcomeMessage" : " आपका स्वागत है !" ,
+        "normalMessage":"हमें आशा है कि आपको JavaScript सीखने में आनंद आएगा |",
+        "greetingMessag" : "आपला दिवस शुभ जावो"
+
+    }
+
+}
