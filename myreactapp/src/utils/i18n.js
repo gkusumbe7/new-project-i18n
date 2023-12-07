@@ -1,10 +1,15 @@
 import languageConfig from "./language.json";
 
-const I18n = (keyword) =>{
+const I18n = (keyword ,placeholder , value) =>{
     const lnaguage = localStorage.getItem("language") || "en";
-    // const language = "en";
-  return  languageConfig[lnaguage][keyword];
 
+    const text = languageConfig[lnaguage][keyword]
+    // const language = "en";
+//   return  languageConfig[lnaguage][keyword];
+if(placeholder && value){
+    return text.replace(placeholder , value);
+}
+return text;
 }
 
 

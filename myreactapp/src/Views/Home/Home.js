@@ -3,7 +3,7 @@ import "../Home/Home.css";
 import I18n from "../../utils/i18n";
 function Home(){
     // const [language , setlanguage] = useState("mr");
-    const usersCount = 15;
+    const usersCount = 50;
 return(
  
 
@@ -26,7 +26,7 @@ return(
             <option value="en">English</option>
         </select>
     
-       <p>{usersCount} Student  are learning is session. </p>
+       <p>{I18n("userStatMessage" , "<StuedentCout>" , usersCount) } </p>
     </div>
 
 

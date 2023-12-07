@@ -2,18 +2,21 @@
     "en":{
         "welcomeMessage" : " Your Welcome !" ,
         "normalMessage" : "We hope you are enjoy to learn JavaScript ." ,
-        "greetingMessag" : "Have a Good Day"
+        "greetingMessag" : "Have a Good Day" ,
+        "userStatMessage" : "<StuedentCout> Students learning in this session"
     },
     "mr":{
         "welcomeMessage" : "तुमचे स्वागत आहे  !",
         "normalMessage" : "आम्हाला आशा आहे की तुम्हाला JavaScript शिकण्यात आनंद झाला असेल .",
-        "greetingMessag" : "आपका दिन शुभ हो"
+        "greetingMessag" : "आपका दिन शुभ हो",
+        "userStatMessage" : "या सत्रात <StuedentCout> विद्यार्थी शिकत आहेत"
 
     },
     "hi":{
         "welcomeMessage" : " आपका स्वागत है !" ,
         "normalMessage":"हमें आशा है कि आपको JavaScript सीखने में आनंद आएगा |",
-        "greetingMessag" : "आपला दिवस शुभ जावो"
+        "greetingMessag" : "आपला दिवस शुभ जावो" ,
+        "userStatMessage" : "इस सत्र में <StuedentCout> छात्र सीख रहे हैं"
 
     }
 
